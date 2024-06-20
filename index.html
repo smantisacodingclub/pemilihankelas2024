@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilihan Kelas 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <!--
+    <div class="halaman" id="hal1">
+
+        <div id="info-container">
+            <div class="info" id="filter-info">
+                <p><i><b>Bingung memilih kelas yang sesuai dengan program studi yang kamu tuju? Gunakan fitur filter kelas untuk membantumu memutuskan!</b></i></p>
+            </div>
+            <div class="info" id="pilih-info">
+                <p><i><b>Sudah tahu ingin memilih kelas yang mana? Segera konsultasikan dengan orang tua dan isi formulir pemilihan kelas!</b></i></p>
+            </div>
+        </div>
+
+        <div id="button-container">
+
+            <input id="filter-button" type="button" value="Lihat Pilihan Kelas" onClick="document.getElementById('hal2').scrollIntoView({ behavior: 'smooth', block: 'center' });">
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_KvdFXjSeHkBI5sY2M0skoviirhrWWenwNNlCW1yM-1ybxQ/viewform?usp=sharing" target="_blank" id="pilih-button">
+                <button id="form">Pilih Kelas</button>
+            </a>
+
+        </div>
+
+        <a id="email-logo1">
+            <img src="logo wo background.png" id="logo1">
+        </a>
+    </div>
+    -->
+
+    <div class="halaman" id="hal2">
+        <div class="judul">
+            <div class="header">
+                <a id="email-logo2">
+                    <img src="logo white ver.png" id="logo2">
+                </a>
+                <h2>PILIHAN KELAS</h2>
+                <div class="links">
+                    <a href="https://drive.google.com/file/d/1RRAWDpjp6r3lgwi_FfyCqsQr1O9kI3AZ/view?usp=drive_link"     target="_blank">Referensi</a>
+                </div>
+            </div>
+            <div id="disclaimer">
+                <ul>
+                    <li>
+                        <span id="disclaimerText">Disclaimer!</span> Selain mata pelajaran pilihan yang tertera di bawah ini, peserta didik akan mempelajari mata pelajaran wajib, yaitu: PPKn, Pendidikan Agama, PJOK, Sejarah, Matematika, Bahasa Indonesia, Bahasa Inggris, Seni Budaya, dan  Muatan Lokal.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+<!--
+    <div class="content">
+        <div class="input">
+            <div class="menu">
+                <h3>PILIH PROGRAM STUDI:</h3>
+                <h4>NB: Untuk melihat semua pilihan kelas, silahkan pilih program studi "Seni"</h4>
+            </div>
+            <input onclick="dropdown()" type="text" id="searchBar" placeholder="Cari..." onkeyup="filterInput()">
+    
+            <div id="flexContainer">
+                <div id="searchMenu">
+                    <button class="opsi" onclick="processInput(this)">Seni</button>
+                    <button class="opsi" onclick="processInput(this)">Sejarah</button>
+                    <button class="opsi" onclick="processInput(this)">Linguistik</button>
+                    <button class="opsi" onclick="processInput(this)">Susastra atau Sastra</button>
+                    <button class="opsi" onclick="processInput(this)">Filsafat</button>
+                    <button class="opsi" onclick="processInput(this)">Sosial</button>
+                    <button class="opsi" onclick="processInput(this)">Ekonomi</button>
+                    <button class="opsi" onclick="processInput(this)">Pertahanan</button>
+                    <button class="opsi" onclick="processInput(this)">Psikologi</button>
+                    <button class="opsi" onclick="processInput(this)">Kimia</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Kebumian</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Kelautan</button>
+                    <button class="opsi" onclick="processInput(this)">Biologi</button>
+                    <button class="opsi" onclick="processInput(this)">Biofisika</button>
+                    <button class="opsi" onclick="processInput(this)">Fisika</button>
+                    <button class="opsi" onclick="processInput(this)">Astronomi</button>
+                    <button class="opsi" onclick="processInput(this)">Komputer</button>
+                    <button class="opsi" onclick="processInput(this)">Logika</button>
+                    <button class="opsi" onclick="processInput(this)">Matematika</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Pertanian</button>
+                    <button class="opsi" onclick="processInput(this)">Peternakan</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Perikanan</button>
+                    <button class="opsi" onclick="processInput(this)">Arsitektur</button>
+                    <button class="opsi" onclick="processInput(this)">Perencanaan Wilayah</button>
+                    <button class="opsi" onclick="processInput(this)">Desain</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Akuntansi</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Manajemen</button>
+                    <button class="opsi" onclick="processInput(this)">Logistik</button>
+                    <button class="opsi" onclick="processInput(this)">Administrasi Bisnis</button>
+                    <button class="opsi" onclick="processInput(this)">Bisnis</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Komunikasi</button>
+                    <button class="opsi" onclick="processInput(this)">Pendidikan</button>
+                    <button class="opsi" onclick="processInput(this)">Teknik atau Rekayasa</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Lingkungan</button>
+                    <button class="opsi" onclick="processInput(this)">Kehutanan</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Kedokteran</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Kedokteran Gigi</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Veteriner</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu Farmasi</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Gizi</button>
+                    <button class="opsi" onclick="processInput(this)">Kesehatan Masyarakat</button>
+                    <button class="opsi" onclick="processInput(this)">Kebidanan</button>
+                    <button class="opsi" onclick="processInput(this)">Keperawatan</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Informasi</button>
+                    <button class="opsi" onclick="processInput(this)">Hukum</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Militer</button>
+                    <button class="opsi" onclick="processInput(this)">Urusan Publik</button>
+                    <button class="opsi" onclick="processInput(this)">Ilmu atau Sains Keolahragaan</button>
+                    <button class="opsi" onclick="processInput(this)">Pariwisata</button>
+                    <button class="opsi" onclick="processInput(this)">Transportasi</button>
+                    <button class="opsi" onclick="processInput(this)">Bioteknologi</button>
+                    <button class="opsi" onclick="processInput(this)">Biokewirausahaan</button>
+                    <button class="opsi" onclick="processInput(this)">Bioinformatika</button>
+                    <button class="opsi" onclick="processInput(this)">Bioinformatika</button>
+                    <button class="opsi" onclick="processInput(this)">Geografi, Geografi Lingkungan, Sains Informasi Geografi</button>
+                    <button class="opsi" onclick="processInput(this)">Informatika Medis atau Informatika Kesehatan</button>
+                    <button class="opsi" onclick="processInput(this)">Konservasi Biologi, Konservasi Hewan Liar, Konservasi Hutan, Konservasi Sumber Daya Alam</button>
+                    <button class="opsi" onclick="processInput(this)">Teknologi Pangan, Teknologi Hasil Pertanian atau Peternakan/Perikanan</button>
+                    <button class="opsi" onclick="processInput(this)">Sains Data</button>
+                    <button class="opsi" onclick="processInput(this)">Sains Perkopian</button>
+                    <button class="opsi" onclick="processInput(this)">Studi Humanitas</button>
+                </div>
+            </div>
+        </div>
+        <div id="pesan">
+    
+            Program Studi: <b><span id="pilihanProdi"></span></b>.
+            <br>
+            Mata Pelajaran: <b><span id="pilihanMapel"></span></b>
+            <br>
+            <span id="recsContainer">Rekomendasi: <b><span id="recs"></span></b></span>
+            <span id="mapelTeknik"> atau <b>Kimia dan <span class="bold Matematika Tingkat Lanjut">Matematika Tingkat Lanjut</span>.</b></span>
+    
+            <span id="saranSemua"> Anda dapat memilih paket manapun.
+            </span>
+        </div>
+    
+    </div>
+-->
+
+        <div id="output">
+            <!--<div id="headerOutput">
+            <h3 class="menu">Kelas yang Sesuai:</h3>
+            </div> -->
+    
+            <div class="container">
+
+                <div class="paket" id="KKO">
+                    <h4>KELAS XI-1 (KKO)</h4>
+                    <p><span class="bold Matematika Tingkat Lanjut">Matematika Tingkat Lanjut</span>, <span class="bold Informatika">Informatika</span>, <span class="bold Sosiologi">Sosiologi</span>, <span class="bold Ekonomi">Ekonomi</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.KKO-list', 0)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list KKO-list">
+                            <ul>
+                                <li>Filsafat</li>
+<li>Sosial</li>
+<li>Ekonomi</li>
+<li>Psikologi</li>
+<li>Komputer</li>
+<li>Logika</li>
+<li>Matematika</li>
+<li>Perencanaan Wilayah</li>
+<li>Ilmu atau Sains Akuntansi</li>
+<li>Ilmu atau Sains Manajemen</li>
+<li>Logistik</li>
+<li>Administrasi Bisnis</li>
+<li>Bisnis</li>
+<li>Ilmu atau Sains Komunikasi</li>
+<li>Ilmu atau Sains Informasi</li>
+<li>Hukum</li>
+<li>Ilmu atau Sains Militer</li>
+<li>Urusan Publik</li>
+<li>Pariwisata</li>
+<li>Transportasi</li>
+<li>Sains Data</li>
+<li>Studi Humanitas</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="paket" id="A">
+                    <h4>KELAS XI-2</h4>
+                    <p><span class="bold Biologi">Biologi</span>, <span class="bold Kimia">Kimia</span>, <span class="bold Matematika Tingkat Lanjut">Matematika Tingkat Lanjut</span>, <span class="bold Fisika">Fisika</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.A-list', 1)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list A-list">
+                            <ul>
+                                <li>Teknik dan Rekayasa</li>
+<li>Kimia</li>
+<li>Ilmu atau Sains Kebumian</li>
+<li>Ilmu atau Sains Kelautan</li>
+<li>Biologi</li>
+<li>Biofisika</li>
+<li>Fisika</li>
+<li>Astronomi</li>
+<li>Komputer</li>
+<li>Logika</li>
+<li>Matematika</li>
+<li>Ilmu atau Sains Pertanian</li>
+<li>Peternakan</li>
+<li>Ilmu atau Sains Perikanan</li>
+<li>Arsitektur</li>
+<li>Ilmu atau Sains Lingkungan</li>
+<li>Kehutanan</li>
+<li>Ilmu atau Sains Kedokteran</li>
+<li>Ilmu atau Sains Kedokteran Gigi</li>
+<li>Ilmu atau Sains Veteriner</li>
+<li>Ilmu Farmasi</li>
+<li>Ilmu atau Sains Gizi</li>
+<li>Kesehatan Masyarakat</li>
+<li>Kebidanan</li>
+<li>Keperawatan</li>
+<li>Kesehatan</li>
+<li>Ilmu atau Sains Informasi</li>
+<li>Ilmu atau Sains Keolahragaan</li>
+<li>Transportasi</li>
+<li>Bioteknologi, Biokewirausahaan, Bioinformatika</li>
+<li>Informatika Medis atau Informatika Kesehatan</li>
+<li>Konservasi Biologi, Konservasi Hewan Liar, Konservasi Hutan, Konservasi Sumber Daya Alam</li>
+<li>Teknologi Pangan, Teknologi Hasil Pertanian/Peternakan/Perikanan</li>
+<li>Sains Data</li>
+<li>Sains Perkopian</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="paket" id="B"> 
+                    <h4>KELAS XI-3</h4>
+                    <p><span class="bold Biologi">Biologi</span>, <span class="bold Kimia">Kimia</span>, <span class="bold Matematika Tingkat Lanjut">Matematika Tingkat Lanjut</span>, <span class="bold Fisika">Fisika</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.B-list', 2)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list B-list">
+                            <ul>
+                                <li>Teknik dan Rekayasa</li>
+<li>Kimia</li>
+<li>Ilmu atau Sains Kebumian</li>
+<li>Ilmu atau Sains Kelautan</li>
+<li>Biologi</li>
+<li>Biofisika</li>
+<li>Fisika</li>
+<li>Astronomi</li>
+<li>Komputer</li>
+<li>Logika</li>
+<li>Matematika</li>
+<li>Ilmu atau Sains Pertanian</li>
+<li>Peternakan</li>
+<li>Ilmu atau Sains Perikanan</li>
+<li>Arsitektur</li>
+<li>Ilmu atau Sains Lingkungan</li>
+<li>Kehutanan</li>
+<li>Ilmu atau Sains Kedokteran</li>
+<li>Ilmu atau Sains Kedokteran Gigi</li>
+<li>Ilmu atau Sains Veteriner</li>
+<li>Ilmu Farmasi</li>
+<li>Ilmu atau Sains Gizi</li>
+<li>Kesehatan Masyarakat</li>
+<li>Kebidanan</li>
+<li>Keperawatan</li>
+<li>Kesehatan</li>
+<li>Ilmu atau Sains Informasi</li>
+<li>Ilmu atau Sains Keolahragaan</li>
+<li>Transportasi</li>
+<li>Bioteknologi, Biokewirausahaan, Bioinformatika</li>
+<li>Informatika Medis atau Informatika Kesehatan</li>
+<li>Konservasi Biologi, Konservasi Hewan Liar, Konservasi Hutan, Konservasi Sumber Daya Alam</li>
+<li>Teknologi Pangan, Teknologi Hasil Pertanian/Peternakan/Perikanan</li>
+<li>Sains Data</li>
+<li>Sains Perkopian</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="paket" id="C">
+                    <h4>KELAS XI-4</h4>
+                    <p><span class="bold Ekonomi">Ekonomi</span>, <span class="bold Geografi">Geografi</span>, <span class="bold Sosiologi">Sosiologi</span>, <span class="bold Informatika">Informatika</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.C-list', 3)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list C-list">
+                            <ul>
+                                <li>Filsafat</li>
+<li>Sosial</li>
+<li>Ekonomi</li>
+<li>Psikologi</li>
+<li>Perencanaan Wilayah</li>
+<li>Ilmu atau Sains Akuntansi</li>
+<li>Ilmu atau Sains Manajemen</li>
+<li>Logistik</li>
+<li>Administrasi Bisnis</li>
+<li>Bisnis</li>
+<li>Ilmu atau Sains Komunikasi</li>
+<li>Hukum</li>
+<li>Ilmu atau Sains Militer</li>
+<li>Urusan Publik</li>
+<li>Pariwisata</li>
+<li>Geografi, Geografi Lingkungan, Sains Informasi Geografi</li>
+<li>Studi Humanitas</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="paket" id="D">
+                    <h4>KELAS XI-5</h4>
+                    <p><span class="bold Fisika">Fisika</span>, <span class="bold Kimia">Kimia</span>, <span class="bold Biologi">Biologi</span>, <span class="bold Bahasa Inggris Tingkat Lanjut">Bahasa Inggris Tingkat Lanjut</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.D-list', 4)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list D-list">
+                            <ul>
+                                <li>Kimia</li>
+<li>Ilmu atau Sains Kelautan</li>
+<li>Biologi</li>
+<li>Biofisika</li>
+<li>Fisika</li>
+<li>Ilmu atau Sains Pertanian</li>
+<li>Peternakan</li>
+<li>Ilmu atau Sains Perikanan</li>
+<li>Arsitektur</li>
+<li>Ilmu atau Sains Lingkungan</li>
+<li>Kehutanan</li>
+<li>Ilmu atau Sains Kedokteran</li>
+<li>Ilmu atau Sains Kedokteran Gigi</li>
+<li>Ilmu atau Sains Veteriner</li>
+<li>Ilmu Farmasi</li>
+<li>Ilmu atau Sains Gizi</li>
+<li>Kesehatan Masyarakat</li>
+<li>Kebidanan</li>
+<li>Keperawatan</li>
+<li>Kesehatan</li>
+<li>Ilmu atau Sains Keolahragaan</li>
+<li>Bioteknologi, Biokewirausahaan, Bioinformatika</li>
+<li>Konservasi Biologi, Konservasi Hewan Liar, Konservasi Hutan, Konservasi Sumber Daya Alam</li>
+<li>Teknologi Pangan, Teknologi Hasil Pertanian/Peternakan/Perikanan</li>
+<li>Sains Perkopian</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="paket" id="E">
+                    <h4>KELAS XI-6</h4>
+                    <p><span class="bold Ekonomi">Ekonomi</span>, <span class="bold Matematika Tingkat Lanjut">Matematika Tingkat Lanjut</span>, <span class="bold Bahasa Inggris Tingkat Lanjut">Bahasa Inggris Tingkat Lanjut</span>, <span class="bold Fisika">Fisika</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.E-list', 5)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list E-list">
+                            <ul>
+                                <li>Teknik dan Rekayasa</li>
+<li>Ekonomi</li>
+<li>Ilmu atau Sains Kebumian</li>
+<li>Biofisika</li>
+<li>Fisika</li>
+<li>Astronomi</li>
+<li>Komputer</li>
+<li>Logika</li>
+<li>Matematika</li>
+<li>Arsitektur</li>
+<li>Perencanaan Wilayah</li>
+<li>Ilmu atau Sains Akuntansi</li>
+<li>Ilmu atau Sains Manajemen</li>
+<li>Logistik</li>
+<li>Administrasi Bisnis</li>
+<li>Bisnis</li>
+<li>Ilmu atau Sains Informasi</li>
+<li>Pariwisata</li>
+<li>Transportasi</li>
+<li>Sains Data</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="paket" id="F">
+                    <h4>KELAS XI-7</h4>
+                    <p><span class="bold Biologi">Biologi</span>, <span class="bold Kimia">Kimia</span>, <span class="bold Bahasa Inggris Tingkat Lanjut">Bahasa Inggris Tingkat Lanjut</span>, <span class="bold Sosiologi">Sosiologi</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.F-list', 6)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list F-list">
+                            <ul>
+                                <li>Filsafat</li>
+<li>Sosial</li>
+<li>Psikologi</li>
+<li>Kimia</li>
+<li>Ilmu atau Sains Kelautan</li>
+<li>Biologi</li>
+<li>Ilmu atau Sains Pertanian</li>
+<li>Peternakan</li>
+<li>Ilmu atau Sains Perikanan</li>
+<li>Ilmu atau Sains Komunikasi</li>
+<li>Ilmu atau Sains Lingkungan</li>
+<li>Kehutanan</li>
+<li>Ilmu atau Sains Kedokteran</li>
+<li>Ilmu atau Sains Kedokteran Gigi</li>
+<li>Ilmu atau Sains Veteriner</li>
+<li>Ilmu Farmasi</li>
+<li>Ilmu atau Sains Gizi</li>
+<li>Kesehatan Masyarakat</li>
+<li>Kebidanan</li>
+<li>Keperawatan</li>
+<li>Kesehatan</li>
+<li>Hukum</li>
+<li>Ilmu atau Sains Militer</li>
+<li>Urusan Publik</li>
+<li>Ilmu atau Sains Keolahragaan</li>
+<li>Bioteknologi, Biokewirausahaan, Bioinformatika</li>
+<li>Konservasi Biologi, Konservasi Hewan Liar, Konservasi Hutan, Konservasi Sumber Daya Alam</li>
+<li>Teknologi Pangan, Teknologi Hasil Pertanian/Peternakan/Perikanan</li>
+<li>Sains Perkopian</li>
+<li>Studi Humanitas</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="paket" id="G">
+                    <h4>KELAS XI-8</h4>
+                    <p><span class="bold Ekonomi">Ekonomi</span>, <span class="bold Bahasa Inggris Tingkat Lanjut">Bahasa Inggris Tingkat Lanjut</span>, <span class="bold Informatika">Informatika</span>, <span class="bold Sosiologi">Sosiologi</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.G-list', 7)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list G-list">
+                            <ul>
+                                <li>Filsafat</li>
+<li>Sosial</li>
+<li>Ekonomi</li>
+<li>Psikologi</li>
+<li>Perencanaan Wilayah</li>
+<li>Ilmu atau Sains Akuntansi</li>
+<li>Ilmu atau Sains Manajemen</li>
+<li>Logistik</li>
+<li>Administrasi Bisnis</li>
+<li>Bisnis</li>
+<li>Ilmu atau Sains Komunikasi</li>
+<li>Hukum</li>
+<li>Ilmu atau Sains Militer</li>
+<li>Urusan Publik</li>
+<li>Pariwisata</li>
+<li>Studi Humanitas</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="paket" id="H">
+                    <h4>KELAS XI-9</h4>
+                    <p><span class="bold Matematika Tingkat Lanjut">Matematika Tingkat Lanjut</span>, <span class="bold Kimia">Kimia</span>, <span class="bold Fisika">Fisika</span>, <span class="bold Informatika">Informatika</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.H-list', 8)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list H-list">
+                            <ul>
+                                <li>Teknik dan Rekayasa</li>
+<li>Kimia</li>
+<li>Ilmu atau Sains Kebumian</li>
+<li>Biofisika</li>
+<li>Fisika</li>
+<li>Astronomi</li>
+<li>Komputer</li>
+<li>Logika</li>
+<li>Matematika</li>
+<li>Arsitektur</li>
+<li>Ilmu atau Sains Informasi</li>
+<li>Transportasi</li>
+<li>Sains Data</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="paket" id="I">
+                    <h4>KELAS XI-10</h4>
+                    <p><span class="bold Bahasa Jepang">Bahasa Jepang</span>, <span class="bold Geografi">Geografi</span>, <span class="bold Sosiologi">Sosiologi</span>, <span class="bold Ekonomi">Ekonomi</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.I-list', 9)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list I-list">
+                            <ul>
+                                <li>Filsafat</li>
+<li>Sosial</li>
+<li>Ekonomi</li>
+<li>Psikologi</li>
+<li>Perencanaan Wilayah</li>
+<li>Ilmu atau Sains Akuntansi</li>
+<li>Ilmu atau Sains Manajemen</li>
+<li>Logistik</li>
+<li>Administrasi Bisnis</li>
+<li>Bisnis</li>
+<li>Ilmu atau Sains Komunikasi</li>
+<li>Hukum</li>
+<li>Ilmu atau Sains Militer</li>
+<li>Urusan Publik</li>
+<li>Pariwisata</li>
+<li>Geografi, Geografi Lingkungan, Sains Informasi Geografi</li>
+<li>Studi Humanitas</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="paket" id="J">
+                    <h4>KELAS XI-11</h4>
+                    <p><span class="bold Bahasa Jepang">Bahasa Jepang</span>, <span class="bold Bahasa Inggris Tingkat Lanjut">Bahasa Inggris Tingkat Lanjut</span>, <span class="bold Bahasa Indonesia Tingkat Lanjut">Bahasa Indonesia Tingkat Lanjut</span>, <span class="bold Sosiologi">Sosiologi</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.J-list', 10)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list J-list">
+                            <ul>
+                                <li>Susastra atau Sastra</li>
+<li>Linguistik</li>
+<li>Filsafat</li>
+<li>Sosial</li>
+<li>Psikologi</li>
+<li>Ilmu atau Sains Komunikasi</li>
+<li>Hukum</li>
+<li>Ilmu atau Sains Militer</li>
+<li>Urusan Publik</li>
+<li>Studi Humanitas</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="paket" id="K">
+                    <h4>KELAS XI-12</h4>
+                    <p><span class="bold Biologi">Biologi</span>, <span class="bold Matematika Tingkat Lanjut">Matematika Tingkat Lanjut</span>, <span class="bold Antropologi">Antropologi</span>, <span class="bold Bahasa Jepang">Bahasa Jepang</span>, PKWU</p>
+                    <div class="prospek">
+                        <div class="navigasi">
+                            <h5>Lihat prospek program studi: </h5>
+                            <button class="add" onclick="clickFunction('.K-list', 11)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                        <div class="list K-list">
+                            <ul>
+                                <li>Ilmu atau Sains Kelautan</li>
+<li>Biologi</li>
+<li>Komputer</li>
+<li>Logika</li>
+<li>Matematika</li>
+<li>Ilmu atau Sains Pertanian</li>
+<li>Peternakan</li>
+<li>Ilmu atau Sains Perikanan</li>
+<li>Ilmu atau Sains Lingkungan</li>
+<li>Kehutanan</li>
+<li>Kesehatan Masyarakat</li>
+<li>Kebidanan</li>
+<li>Keperawatan</li>
+<li>Kesehatan</li>
+<li>Ilmu atau Sains Informasi</li>
+<li>Ilmu atau Sains Keolahragaan</li>
+<li>Transportasi</li>
+<li>Bioteknologi, Biokewirausahaan, Bioinformatika</li>
+<li>Informatika Medis atau Informatika Kesehatan</li>
+<li>Konservasi Biologi, Konservasi Hewan Liar, Konservasi Hutan, Konservasi Sumber Daya Alam</li>
+<li>Sains Data</li>
+<li>Sains Perkopian</li>
+<li>Seni</li>
+<li>Sejarah</li>
+<li>Pertahanan</li>
+<li>Desain</li>
+<li>Pendidikan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_KvdFXjSeHkBI5sY2M0skoviirhrWWenwNNlCW1yM-1ybxQ/viewform?usp=sharing" target="_blank" id="pilih-button" class="instruksi">
+                    <button id="form">Klik Disini untuk Memilih Kelas</button>
+                </a>
+            
+            </div>
+
+        </div>
+
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+
+
+
+
+</html>
